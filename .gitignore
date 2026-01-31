@@ -2,5 +2,7 @@
 *.log
 *.vscode
 /wx/miniprogram/**/*.js
+# 忽略 miniprogram 目录下所有子目录中的 .js 文件
+miniprogram/**/*.js
 
 node_modules
